@@ -20,4 +20,3 @@ def assign_rooms(names)
     array << assign_rooms(names)
   end
 end
-
