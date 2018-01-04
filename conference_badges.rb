@@ -5,7 +5,7 @@ end
 
 #takes an array of names as an argument
 #returns an array of badge messages.
-names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 
 def batch_badge_creator(names)
   names.map do |name|
