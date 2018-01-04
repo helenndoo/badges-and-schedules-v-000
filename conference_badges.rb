@@ -1,3 +1,3 @@
 # Write your code here.
-badge_maker("Helen")
+badge_maker(name)
   "Hello, my name is #{name}."
