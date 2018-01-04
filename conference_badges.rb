@@ -16,8 +16,7 @@ def assign_rooms(names)
   names.collect.with_index {|name, index| "Hello, #{name}! You'll be assigned to room #{index+1}!"}
 end
 
-
-    array = []
-    array << assign_rooms(names)
-  end
+def printer(names)
+  batch_badge_creator(names).each {|badge| puts badge}
+  assign_rooms(names).each {|assignment| puts assignment}
 end
