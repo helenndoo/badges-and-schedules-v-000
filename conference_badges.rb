@@ -1,3 +1,3 @@
 # Write your code here.
-badge_maker(name)
+batch_badge_creator(name)
   "Hello, my name is #{name}."
